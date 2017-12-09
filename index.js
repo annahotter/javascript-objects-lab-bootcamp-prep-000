@@ -5,8 +5,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  recipes["prop2"] = '2'
+  recipes["meatload"] = 'beef'
   return recipes
 }
-
-const recipe = { prop2: 2}
