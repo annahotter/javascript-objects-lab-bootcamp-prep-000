@@ -8,3 +8,5 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   recipes["prop2"] = '2'
   return recipes
 }
+
+const recipe = { prop2: 2}
